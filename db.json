@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": 111,
+      "name": "John",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [1, 2]
+    },
+    {
+      "id": 112,
+      "name": "Alice",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [1, 3]
+    },
+    {
+      "id": 113,
+      "name": "Bob",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [1, 2]
+    },
+    {
+      "id": 114,
+      "name": "Nameless",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [2, 4]
+    },
+    {
+      "id": 115,
+      "name": "James",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [2]
+    },
+    {
+      "id": 116,
+      "name": "Marina",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [3]
+    },
+    {
+      "id": 117,
+      "name": "Sofia",
+      "role": "operator",
+      "isDisabled": false,
+      "groups": [3, 4]
+    },
+    {
+      "id": 211,
+      "name": "George",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    },
+    {
+      "id": 212,
+      "name": "Jerry",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    },
+    {
+      "id": 213,
+      "name": "Oscar",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    },
+    {
+      "id": 214,
+      "name": "Thomas",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    },
+    {
+      "id": 215,
+      "name": "Charley",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    },
+    {
+      "id": 217,
+      "name": "Jack",
+      "role": "supervisor",
+      "isDisabled": false,
+      "groups": [1]
+    }
+  ],
+  "groups": {
+    "data": [
+      {
+        "id": 1,
+        "name": "France",
+        "members": [
+          {
+            "id": 111,
+            "name": "John"
+          },
+          {
+            "id": 112,
+            "name": "Alice"
+          },
+          {
+            "id": 113,
+            "name": "Bob"
+          }
+        ],
+        "owners": [
+          {
+            "id": 211,
+            "name": "George"
+          },
+          {
+            "id": 212,
+            "name": "Jerry"
+          },
+          {
+            "id": 213,
+            "name": "Oscar"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Spain",
+        "members": [
+          {
+            "id": 114,
+            "name": "Nameless"
+          },
+          {
+            "id": 115,
+            "name": "James"
+          },
+          {
+            "id": 113,
+            "name": "Bob"
+          }
+        ],
+        "owners": [
+          {
+            "id": 217,
+            "name": "Jack"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Germany",
+        "members": [
+          {
+            "id": 117,
+            "name": "Marina"
+          },
+          {
+            "id": 118,
+            "name": "Alice"
+          },
+          {
+            "id": 119,
+            "name": "Sofia"
+          }
+        ],
+        "owners": [
+          {
+            "id": 215,
+            "name": "Charley"
+          },
+          {
+            "id": 214,
+            "name": "Thomas"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Russia",
+        "members": [
+          {
+            "id": 117,
+            "name": "Sofia"
+          },
+          {
+            "id": 114,
+            "name": "Nameless"
+          },
+          {
+            "id": 113,
+            "name": "Bob"
+          }
+        ],
+        "owners": [
+          {
+            "id": 211,
+            "name": "George"
+          },
+          {
+            "id": 213,
+            "name": "Oscar"
+          }
+        ]
+      }
+    ]
+  }
+}
