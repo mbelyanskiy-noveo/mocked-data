@@ -92,120 +92,118 @@
       "groups": [1]
     }
   ],
-  "groups": {
-    "data": [
-      {
-        "id": 1,
-        "name": "France",
-        "members": [
-          {
-            "id": 111,
-            "name": "John"
-          },
-          {
-            "id": 112,
-            "name": "Alice"
-          },
-          {
-            "id": 113,
-            "name": "Bob"
-          }
-        ],
-        "owners": [
-          {
-            "id": 211,
-            "name": "George"
-          },
-          {
-            "id": 212,
-            "name": "Jerry"
-          },
-          {
-            "id": 213,
-            "name": "Oscar"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Spain",
-        "members": [
-          {
-            "id": 114,
-            "name": "Nameless"
-          },
-          {
-            "id": 115,
-            "name": "James"
-          },
-          {
-            "id": 113,
-            "name": "Bob"
-          }
-        ],
-        "owners": [
-          {
-            "id": 217,
-            "name": "Jack"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Germany",
-        "members": [
-          {
-            "id": 117,
-            "name": "Marina"
-          },
-          {
-            "id": 118,
-            "name": "Alice"
-          },
-          {
-            "id": 119,
-            "name": "Sofia"
-          }
-        ],
-        "owners": [
-          {
-            "id": 215,
-            "name": "Charley"
-          },
-          {
-            "id": 214,
-            "name": "Thomas"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "name": "Russia",
-        "members": [
-          {
-            "id": 117,
-            "name": "Sofia"
-          },
-          {
-            "id": 114,
-            "name": "Nameless"
-          },
-          {
-            "id": 113,
-            "name": "Bob"
-          }
-        ],
-        "owners": [
-          {
-            "id": 211,
-            "name": "George"
-          },
-          {
-            "id": 213,
-            "name": "Oscar"
-          }
-        ]
-      }
-    ]
-  }
+  "groups": [
+    {
+      "id": 1,
+      "name": "France",
+      "members": [
+        {
+          "id": 111,
+          "name": "John"
+        },
+        {
+          "id": 112,
+          "name": "Alice"
+        },
+        {
+          "id": 113,
+          "name": "Bob"
+        }
+      ],
+      "owners": [
+        {
+          "id": 211,
+          "name": "George"
+        },
+        {
+          "id": 212,
+          "name": "Jerry"
+        },
+        {
+          "id": 213,
+          "name": "Oscar"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Spain",
+      "members": [
+        {
+          "id": 114,
+          "name": "Nameless"
+        },
+        {
+          "id": 115,
+          "name": "James"
+        },
+        {
+          "id": 113,
+          "name": "Bob"
+        }
+      ],
+      "owners": [
+        {
+          "id": 217,
+          "name": "Jack"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Germany",
+      "members": [
+        {
+          "id": 117,
+          "name": "Marina"
+        },
+        {
+          "id": 118,
+          "name": "Alice"
+        },
+        {
+          "id": 119,
+          "name": "Sofia"
+        }
+      ],
+      "owners": [
+        {
+          "id": 215,
+          "name": "Charley"
+        },
+        {
+          "id": 214,
+          "name": "Thomas"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Russia",
+      "members": [
+        {
+          "id": 117,
+          "name": "Sofia"
+        },
+        {
+          "id": 114,
+          "name": "Nameless"
+        },
+        {
+          "id": 113,
+          "name": "Bob"
+        }
+      ],
+      "owners": [
+        {
+          "id": 211,
+          "name": "George"
+        },
+        {
+          "id": 213,
+          "name": "Oscar"
+        }
+      ]
+    }
+  ]
 }
